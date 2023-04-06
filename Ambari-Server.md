@@ -1,1 +1,0 @@
-This document explains the process of installing Ambari Server in your environment. 
