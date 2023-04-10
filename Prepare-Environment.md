@@ -179,7 +179,30 @@ When using MySQL, the storage engine used for the Ranger admin policy store tabl
 
 **Procedure**
 
-1. The MySQL database administrator should be used to create the Ranger databases. The following series of commands could be used to create the [RANGER_USER] user with password [RANGER_PASSWORD].
-    - Log in as the root user, then use the following commands to create the  [RANGER_USER] user and grant it adequate privileges.
+1. The MySQL database administrator should be used to create the Ranger databases. The following series of commands could be used to create the `[RANGER_USER]` user with password `[RANGER_PASSWORD]`.
+    - Log in as the root user, then use the following commands to create the `[RANGER_USER]` user and grant it adequate privileges.
+
+```mysql
+CREATE DATABASE [RANGER_DATABASE];
+CREATE USER '[RANGER_USER]'@'[RANGER-HOSTNAME]' IDENTIFIED BY '[RANGER_PASSWORD]';
+GRANT ALL PRIVILEGES ON [RANGER_DATABASE].* to '[RANGER_USER]'@'[RANGER-HOSTNAME]' identified by '[RANGER_PASSWORD]' WITH GRANT OPTIONS;
+FLUSH PRIVILEGES;
+```
+2. Use the exit command to exit MySQL.					
+3. You should now be able to reconnect to the database as [RANGER_DATABASE] using the following command: mysql -u [RANGER_USER] -p[RANGER_PASSWORD] 			
+4. After testing the `[RANGER_USER]` login, use the exit command to exit MySQL.	
+5. Confirm that the mysql-connector-java.jar file is in the Java share directory. This command must be run on the server where Ambari server is installed: `ls /usr/share/java/mysql-connector-java.jar`.	
+				
+**Note**: If the file is not in the Java share directory, use the following commands to install the MySQL connector .jar file:				
+`* RHEL/CentOS/Oracle Linux: yum install mysql-connector-java*`
+* `SLES: zypper install mysql-connector-java*`
+ 								
+6. Set the _jdbc/driver/_ path based on the location of the MySQL JDBC driver .jar file. This command must be run on the server where Ambari server is installed. `ambari-server setup --jdbc-db={database-type} --jdbc-driver={/jdbc/ driver/path}`
+``` 
+ambari-server setup --jdbc-db=mysql --jdbc-driver=/usr/share/java/mysql-
+connector-java.jar
+```
+
+
 
 
