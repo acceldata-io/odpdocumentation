@@ -2,7 +2,7 @@
 1. [Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Ambari-Server)
     1. [Prerequisites to Install Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Prerequisites-to-Install-Ambari-Server)
         1. [Software Requirements](https://github.com/acceldata-io/odpdocumentation/wiki/Software-Requirements)
-        2. Groenendael
+        2. [Collect Information](https://github.com/acceldata-io/odpdocumentation/wiki/Collect-Information)
     2. Belgian Shepherd
         1. Malinois
         2. Groenendael
