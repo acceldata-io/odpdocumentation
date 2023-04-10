@@ -18,7 +18,7 @@ Before deploying a cluster, gather the following information:
 
 * The base directories you want to use as mount points to store the following:
 *  NameNode data
-  * DataNodes data
+    - DataNodes data
   * Secondary NameNode data
   * Oozie data
   * YARN data
