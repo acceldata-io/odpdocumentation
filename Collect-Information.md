@@ -1,11 +1,10 @@
 Before deploying a cluster, gather the following information:
 
-The fully qualified domain name (FQDN) of each host in your system. The Ambari Cluster Install wizard supports using IP addresses. You can use the hostname -f command to check or verify the FQDN of a host.
+* The fully qualified domain name (FQDN) of each host in your system. The Ambari Cluster Install wizard supports using IP addresses. You can use the hostname -f command to check or verify the FQDN of a host.
 
-A list of components you want to set up on each host.
+* A list of components you want to set up on each host.
 
-
-The base directories you want to use as mount points to store the following:
+* The base directories you want to use as mount points to store the following:
 
     - NameNode data
     - DataNodes data
