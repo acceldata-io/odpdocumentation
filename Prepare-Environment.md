@@ -129,7 +129,19 @@ GRANT ALL PRIVILEGES ON *.* TO '[AMBARI_USER]'@'[AMBARI_SERVER_FQDN]';
 FLUSH PRIVILEGES;
 ```
 
+Where `[AMBARI_USER]` is the Ambari user name, `[AMBARI_PASSWORD]` is the Ambari user password and `[AMBARI_SERVER_FQDN]` is the Fully Qualified Domain Name of the Ambari Server host.
 
+* **Load the Ambari Server database schema.**
+
+You must pre-load the Ambari database schema into your MySQL/MariaDB database using the schema script. Run the script in the same location where you find the Ambari-DDL-MySQL-CREATE.sql file. You should find the _Ambari-DDL-MySQL-CREATE.sql_ file in the _/var/lib/ambari-server/resources/_ directory of the Ambari Server host, after you have installed Ambari Server.
+
+```mysql
+mysql -u [AMBARI_USER] -p
+CREATE DATABASE [AMBARI_DATABASE];
+USE [AMBARI_DATABASE];
+SOURCE Ambari-DDL-MySQL-CREATE.sql;
+```
+Where `[AMBARI_USER]` is the Ambari user name and` [AMBARI_DATABASE]` is the Ambari database name.
 
 
 
