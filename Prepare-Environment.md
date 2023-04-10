@@ -180,6 +180,6 @@ When using MySQL, the storage engine used for the Ranger admin policy store tabl
 **Procedure**
 
 1. The MySQL database administrator should be used to create the Ranger databases. The following series of commands could be used to create the [RANGER_USER] user with password [RANGER_PASSWORD].
-    -a. Log in as the root user, then use the following commands to create the  [RANGER_USER] user and grant it adequate privileges.
+    - Log in as the root user, then use the following commands to create the  [RANGER_USER] user and grant it adequate privileges.
 
 
