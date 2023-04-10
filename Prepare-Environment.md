@@ -99,6 +99,34 @@ umask
 Permanently changing the umask for all interactive users:\
 `echo umask 0022 >> /etc/profile`
 
+# Download and set up Database Connectors
+
+Components like Hive, Ranger, Oozie, and Hue require an operational database. During installation, you have the option to use an existing database or have Ambari install a new instance, in the case of Hive. For Ambari to connect to the database of your choice, you must download the necessary database drivers and connectors directly from the database vendor before installing the component. To better prepare for your install, set up the database connectors as you set up your environment.
+
+## Using Ambari with MySQL or MariaDB
+
+Before setting up Ambari Server with an existing MySQL or MariaDB database; obtain the appropriate connectors and .jar files, create an Ambari user with sufficient permissions, and load the Ambari database schema.
+
+### Before you Begin:
+Determine the appropriate database version and obtain the release drivers and .jar file.
+* On the Ambari Server host, stage the appropriate connector/JDBC driver file for later deployment.
+    - On the Ambari Server host, [Download the MySQL Connector/JDBC driver from MySQL](https://dev.mysql.com/downloads/connector/j/)
+    - Run ambari-server setup `--jdbc-db=mysql --jdbc-driver=/path/to/mysql/mysql-connector-java.jar`
+    - Confirm that .jar is in the Java share directory.\
+       `ls /usr/share/java/mysql-connector-java.jar`\
+    - Make sure the .jar file has the appropriate permissions - 644.
+* Create a user for Ambari and grant it permissions.
+using the MySQL database admin utility:
+
+`$ mysql -u root -p `
+`CREATE USER '[AMBARI_USER]'@'%' IDENTIFIED BY '[AMBARI_PASSWORD]';`
+`GRANT ALL PRIVILEGES ON *.* TO '[AMBARI_USER]'@'%';`
+`CREATE USER '[AMBARI_USER]'@'localhost' IDENTIFIED BY '[AMBARI_PASSWORD]';`
+`GRANT ALL PRIVILEGES ON *.* TO '[AMBARI_USER]'@'localhost';`
+`CREATE USER '[AMBARI_USER]'@'[AMBARI_SERVER_FQDN]' IDENTIFIED BY '[AMBARI_PASSWORD]';`
+`GRANT ALL PRIVILEGES ON *.* TO '[AMBARI_USER]'@'[AMBARI_SERVER_FQDN]';`
+`FLUSH PRIVILEGES;`
+
 
 
 
