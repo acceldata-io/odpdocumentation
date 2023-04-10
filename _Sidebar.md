@@ -3,7 +3,7 @@
     1. [Prerequisites to Install Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Prerequisites-to-Install-Ambari-Server)
         1. [Software Requirements](https://github.com/acceldata-io/odpdocumentation/wiki/Software-Requirements)
         2. [Collect Information](https://github.com/acceldata-io/odpdocumentation/wiki/Collect-Information)
-    2. Belgian Shepherd
+    2. [Prepare Environment](https://github.com/acceldata-io/odpdocumentation/wiki/Prepare-Environment)
         1. Malinois
         2. Groenendael
         3. Tervuren
