@@ -1,1 +1,1 @@
-Ambari Server
+The Ambari Server is a tool used for cluster automation. To install the ODP server, you must first install the Ambari server. This chapter explains the process of installing Ambari server.  
