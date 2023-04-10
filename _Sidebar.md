@@ -1,6 +1,6 @@
 1. [Overview](https://github.com/acceldata-io/odpdocumentation/wiki/Overview)
 1. [Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Ambari-Server)
-    1. German Shepherd
+    1. [Prerequisites to Install Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Prerequisites-to-Install-Ambari-Server)
     2. Belgian Shepherd
         1. Malinois
         2. Groenendael
