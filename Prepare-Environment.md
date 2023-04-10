@@ -203,6 +203,15 @@ ambari-server setup --jdbc-db=mysql --jdbc-driver=/usr/share/java/mysql-
 connector-java.jar
 ```
 
+### Amazon RDS Requirements
+
+You must change the variable `log_bin_trust_function_creators` to `1` during Ranger installation.\
+\
+From RDS **Dashboard>Parameter** group (on the left side of the page):\
+1. Set the MySQL Server variable log_bin_trust_function_creators to 1.
+2. (Optional) After Ranger installation is complete, reset `log_bin_trust_function_creators` to its original setting. The variable is only required to be set to `1` during Ranger installation.
+
+
 
 
 
