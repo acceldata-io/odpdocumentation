@@ -1,3 +1,3 @@
 1. [Overview](https://github.com/acceldata-io/odpdocumentation/wiki/Overiew)
 2. [Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Ambari-Server)
-3. [Prerequisites](https://github.com/acceldata-io/odpdocumentation/wiki/Prerequisites-to-install-Ambari-Server)
+3. [Prerequisites to Install Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Prerequisites-to-install-Ambari-Server)
