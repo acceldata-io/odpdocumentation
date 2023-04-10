@@ -13,9 +13,10 @@ To have Ambari Server automatically install Ambari Agents on all your cluster ho
 `ssh-copy-id -i /root/.ssh/id_rsa.pub root@odp{1-4}-test.adsre.com`\
 4. Depending on your version of SSH, you may need to set permissions on the .ssh directory (to 700) and the authorized_keys file in that directory (to 600) on the target hosts.\
 `chmod 700 ~/.ssh`\
+5. From the Ambari Server, make sure you can connect to each host in the cluster using SSH, without having to enter a password.\
+`ssh root@odp{1-4}-test.adsre.com`
 
 # Set Up Service User Accounts
 Each service requires a service user account. The Ambari Cluster Install wizard creates new and preserves any existing service user accounts, and uses these accounts when configuring Hadoop services. Service user account creation applies to service user accounts on the local operating system and to LDAP/AD accounts.
 `chmod 600 ~/.ssh/authorized_keys`\
-5. From the Ambari Server, make sure you can connect to each host in the cluster using SSH, without having to enter a password.\
-`ssh root@odp{1-4}-test.adsre.com`
+
