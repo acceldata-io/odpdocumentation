@@ -47,13 +47,13 @@ For Ambari to communicate during setup with the hosts it deploys to and manages,
 
 ## RHEL/CentOS/Oracle/Amazon Linux
 `systemctl disable firewalld`\
-`service firewalld stop`\
+`service firewalld stop`
 
 ## SLES
 `rcSuSEfirewall2 stop`\
-`chkconfig SuSEfirewall2_setup off`\
+`chkconfig SuSEfirewall2_setup off`
 
-Ubuntu
+## Ubuntu
 
 `sudo ufw disable`\
 `sudo iptables -X`\
