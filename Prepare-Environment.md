@@ -21,7 +21,7 @@ To have Ambari Server automatically install Ambari Agents on all your cluster ho
 Each service requires a service user account. The Ambari Cluster Install wizard creates new and preserves any existing service user accounts, and uses these accounts when configuring Hadoop services. Service user account creation applies to service user accounts on the local operating system and to LDAP/AD accounts.
 
 # Enable NTP/chrony on the Cluster and on the Browser Host
-Install NTP and Chrony on RHEL/CentOS and Ubuntu
+Install NTP and Chrony on RHEL/CentOS and Ubuntu.
 
 RHEL/CentOS:
 Install NTP: Run the command yum install ntp and start the NTP service using "systemctl start ntpd".
