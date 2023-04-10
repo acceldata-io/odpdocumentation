@@ -4,12 +4,13 @@ The fully qualified domain name (FQDN) of each host in your system. The Ambari C
 
 A list of components you want to set up on each host.
 
+
 The base directories you want to use as mount points to store the following:
 
-NameNode data
-DataNodes data
-Secondary NameNode data
-Oozie data
-YARN data
-ZooKeeper data,
-Various log, pid, and db files, depending on your install type
+    - NameNode data
+    - DataNodes data
+    - Secondary NameNode data
+    - Oozie data
+    - YARN data
+    - ZooKeeper data
+    - Various log, pid, and db files, depending on your install type
