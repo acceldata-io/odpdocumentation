@@ -1,6 +1,6 @@
 Install NTP and Chrony on RHEL/CentOS and Ubuntu:
 
-1. > RHEL/CentOS:
+1.  **RHEL/CentOS:**
 Install NTP: Run the command "yum install ntp" and start the NTP service using "systemctl start ntpd".\
 Or\
 Install Chrony: Run the command "yum install chrony" and start the Chrony service using "systemctl start chronyd".\
