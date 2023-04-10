@@ -1,0 +1,1 @@
+This section explains the environment related settings for Ambari Server.
