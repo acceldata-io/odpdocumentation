@@ -18,11 +18,11 @@ Before deploying a cluster, gather the following information:
 
 * The base directories you want to use as mount points to store the following:
 *  NameNode data
- * DataNodes data
- * Secondary NameNode data
- * Oozie data
- * YARN data
- * ZooKeeper data,
- * Various log, pid, and db files, depending on your install type
+  * DataNodes data
+  * Secondary NameNode data
+  * Oozie data
+  * YARN data
+  * ZooKeeper data,
+  * Various log, pid, and db files, depending on your install type
 
 
