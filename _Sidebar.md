@@ -7,7 +7,7 @@
         1. [Set Up Password-less SSH](https://github.com/acceldata-io/odpdocumentation/wiki/Set-Up-Password-less-SSH)
         2. [Set Up Service User Accounts](https://github.com/acceldata-io/odpdocumentation/wiki/Set-Up-Service-User-Accounts)
         3. Tervuren
-2. Cat
+2. Installing Ambari Server
     1. Siberian
     2. Siamese
 
