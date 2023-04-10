@@ -1,11 +1,3 @@
-![Screenshot of the toolbar](http://so.mrozekma.com/editor-bar-help-button.png)
-
-That [help page](http://stackoverflow.com/editing-help) explains how to do the simple case:
-
-> ### Advanced lists: Nesting
-> To put other Markdown blocks in a list; just indent four spaces for each nesting level
-
-For example (see the [markdown for this post](http://meta.stackoverflow.com/revisions/01c25c3a-3653-49f4-b6be-4323c50bff2d/view-source)):
 
 1. Dog
     1. German Shepherd
