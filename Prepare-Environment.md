@@ -63,7 +63,7 @@ Ubuntu
 `sudo iptables -t mangle -X`\
 `sudo iptables -P INPUT ACCEPT`\
 `sudo iptables -P FORWARD ACCEPT`\
-`sudo iptables -P OUTPUT ACCEPT`\
+`sudo iptables -P OUTPUT ACCEPT`
 
 ## Debian
 
@@ -74,7 +74,7 @@ Ubuntu
 `sudo iptables -t mangle -X`\
 `sudo iptables -P INPUT ACCEPT`\
 `sudo iptables -P FORWARD ACCEPT`\
-`sudo iptables -P OUTPUT ACCEPT`\
+`sudo iptables -P OUTPUT ACCEPT`
 
 
 
