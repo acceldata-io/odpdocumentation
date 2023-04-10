@@ -83,7 +83,7 @@ Ambari checks whether iptables is running during the Ambari Server setup process
 # Disable SELinux and PackageKit and check the umask Value
 1. You must disable SELinux for the Ambari setup to function. On each host in your cluster, enter:\
 `setenforce 0`\
-\
+
 To permanently disable SELinux set `SELINUX=disabled` in `/etc/selinux/config`  This ensures that SELinux does not turn itself on after you reboot the machine.\
 \
 2. UMASK (User Mask or User file creation MASK) sets the default permissions or base permissions granted when a new file or folder is created on a Linux machine. Most Linux distros set 022 as the default umask value. A umask value of 022 grants read, write, execute permissions of 755 for new files or folders. A umask value of 027 grants read, write, execute permissions of 750 for new files or folders.\
