@@ -13,7 +13,7 @@ Ensure that the following software packages are installed on each host:
 Before deploying a cluster, gather the following information:
 
 * The fully qualified domain name (FQDN) of each host in your system. The Ambari Cluster Install wizard supports using IP addresses. You can use
-  hostname -f to check or verify the FQDN of a host.
+  `hostname -f` to check or verify the FQDN of a host.
 * A list of components you want to set up on each host.
 * The base directories you want to use as mount points for storing:
 * NameNode data
