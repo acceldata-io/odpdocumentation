@@ -1,5 +1,5 @@
 This section explains the environment related settings for Ambari Server.\
-\
+
 # Set Up Password less SSH
 To have Ambari Server automatically install Ambari Agents on all your cluster hosts, you must set up password-less SSH connections between the Ambari Server host and all other hosts in the cluster. The Ambari Server host uses SSH public key authentication to remotely access and install the Ambari Agent.
 
@@ -20,4 +20,16 @@ To have Ambari Server automatically install Ambari Agents on all your cluster ho
 # Set Up Service User Accounts
 Each service requires a service user account. The Ambari Cluster Install wizard creates new and preserves any existing service user accounts, and uses these accounts when configuring Hadoop services. Service user account creation applies to service user accounts on the local operating system and to LDAP/AD accounts.
 
+# Enable NTP/chrony on the Cluster and on the Browser Host
+Install NTP and Chrony on RHEL/CentOS and Ubuntu
+
+RHEL/CentOS:
+Install NTP: Run the command yum install ntp and start the NTP service using "systemctl start ntpd".
+or
+Install Chrony: Run the command yum install chrony and start the Chrony service using "systemctl start chronyd".\
+
+Ubuntu:
+Install NTP: Run the command sudo apt-get install ntp and start the NTP service using "sudo systemctl start ntp".
+or
+Install Chrony: Run the command sudo apt-get install chrony and start the Chrony service using "sudo systemctl start chrony".
 
