@@ -82,7 +82,7 @@ Ambari checks whether iptables is running during the Ambari Server setup process
 
 # Disable SELinux and PackageKit and check the umask Value
 1. You must disable SELinux for the Ambari setup to function. On each host in your cluster, enter:\
-`setenforce 0`\
+`setenforce 0`
 
 To permanently disable SELinux set `SELINUX=disabled` in `/etc/selinux/config`  This ensures that SELinux does not turn itself on after you reboot the machine.\
 \
