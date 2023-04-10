@@ -1,4 +1,4 @@
-This section explains the environment related settings for Ambari Server.\
+This section explains the environment related settings for Ambari Server.
 
 # Set Up Password less SSH
 To have Ambari Server automatically install Ambari Agents on all your cluster hosts, you must set up password-less SSH connections between the Ambari Server host and all other hosts in the cluster. The Ambari Server host uses SSH public key authentication to remotely access and install the Ambari Agent.
