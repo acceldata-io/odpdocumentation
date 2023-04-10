@@ -107,7 +107,7 @@ Components like Hive, Ranger, Oozie, and Hue require an operational database. Du
 
 Before setting up Ambari Server with an existing MySQL or MariaDB database; obtain the appropriate connectors and .jar files, create an Ambari user with sufficient permissions, and load the Ambari database schema.
 
-### Before you Begin:
+### Before you Begin
 Determine the appropriate database version and obtain the release drivers and .jar file.
 * On the Ambari Server host, stage the appropriate connector/JDBC driver file for later deployment.
     - On the Ambari Server host, [Download the MySQL Connector/JDBC driver from MySQL](https://dev.mysql.com/downloads/connector/j/)
@@ -143,6 +143,14 @@ SOURCE Ambari-DDL-MySQL-CREATE.sql;
 ```
 Where `[AMBARI_USER]` is the Ambari user name and` [AMBARI_DATABASE]` is the Ambari database name.
 
+### After you finish
+
+When you set up the Ambari Server, you must execute the following steps.  
+1. Select **Advanced Database Configuration**.
+2. Select Option [3] **MySQL/MariaDB**.
+3. Enter the credentials you defined in Step 2. for user name, password and database name.
+* Configuring a Database Instance for Ranger
+* Install Databases for Ambari and ODP services
 
 
 
