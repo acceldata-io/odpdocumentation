@@ -152,7 +152,34 @@ When you set up the Ambari Server, you must execute the following steps.
 * Configuring a Database Instance for Ranger
 * Install Databases for Ambari and ODP services
 
+## Configure your MySQL database instance for Hive
 
+Create a user for Hive and grant it permissions.
+using the MySQL database admin utility:
 
+```mysql
+# mysql -u root -p
+CREATE DATABASE [HIVE_DATABASE]
+CREATE USER '[HIVE_USER]'@'localhost' IDENTIFIED BY '[HIVE_PASSWORD]';
+GRANT ALL PRIVILEGES ON *.* TO '[HIVE_USER]'@'localhost';
+CREATE USER '[HIVE_USER]'@'%' IDENTIFIED BY '[HIVE_PASSWORD]';
+GRANT ALL PRIVILEGES ON *.* TO '[HIVE_USER]'@'%';
+CREATE USER '[HIVE_USER]'@'[HIVE_METASTORE_FQDN]' IDENTIFIED BY '[HIVE_PASSWORD]';
+GRANT ALL PRIVILEGES ON *.* TO '[HIVE_USER]'@'[HIVE_METASTORE_FQDN]';
+FLUSH PRIVILEGES;
+```
+Where` [HIVE_USER]` is the Hive username, `[HIVE_PASSWORD]` is the Hive user password and `[HIVE_METASTORE_FQDN]` is the Fully Qualified Domain Name of the Hive Metastore host.
+
+## Configure your MySQL database instance for Ranger
+
+Before you begin
+
+A MySQL/Oracle/PostgreSQL/Amazon RDS database instance must be running and available to be used by Ranger.
+When using MySQL, the storage engine used for the Ranger admin policy store tables MUST support transactions. InnoDB is an example of an engine that supports transactions. A storage engine that does not support transactions is not suitable as a policy store.
+
+**Procedure**
+
+1. The MySQL database administrator should be used to create the Ranger databases. The following series of commands could be used to create the [RANGER_USER] user with password [RANGER_PASSWORD].
+    -a. Log in as the root user, then use the following commands to create the  [RANGER_USER] user and grant it adequate privileges.
 
 
