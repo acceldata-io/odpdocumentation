@@ -118,6 +118,7 @@ Determine the appropriate database version and obtain the release drivers and .j
 * Create a user for Ambari and grant it permissions.
 using the MySQL database admin utility:
 
+```mySQL
 `$ mysql -u root -p `
 `CREATE USER '[AMBARI_USER]'@'%' IDENTIFIED BY '[AMBARI_PASSWORD]';`
 `GRANT ALL PRIVILEGES ON *.* TO '[AMBARI_USER]'@'%';`
@@ -126,7 +127,7 @@ using the MySQL database admin utility:
 `CREATE USER '[AMBARI_USER]'@'[AMBARI_SERVER_FQDN]' IDENTIFIED BY '[AMBARI_PASSWORD]';`
 `GRANT ALL PRIVILEGES ON *.* TO '[AMBARI_USER]'@'[AMBARI_SERVER_FQDN]';`
 `FLUSH PRIVILEGES;`
-
+```
 
 
 
