@@ -4,13 +4,14 @@ To have Ambari Server automatically install Ambari Agents on all your cluster ho
 
 1. Generate public and private SSH keys on the Ambari Server host.\
 `ssh-keygen`
-2. Copy the SSH Public Key (id_rsa.pub) to the root account on your target hosts.`.ssh/id_rsa`and `.ssh/id_rsa.pub`
-3. Add the public key to the target host.
+2. Copy the SSH Public Key (id_rsa.pub) to the root account on your target hosts.\
+`.ssh/id_rsa`\`.ssh/id_rsa.pub`
+3. Add the public key to the target host.\
 `ssh-copy-id -i /root/.ssh/id_rsa.pub root@odp{1-4}-test.adsre.com`
-4. Depending on your version of SSH, you may need to set permissions on the .ssh directory (to 700) and the authorized_keys file in that directory (to 600) on the target hosts.
-`chmod 700 ~/.ssh` and
+4. Depending on your version of SSH, you may need to set permissions on the .ssh directory (to 700) and the authorized_keys file in that directory (to 600) on the target hosts.\
+`chmod 700 ~/.ssh`\
 `chmod 600 ~/.ssh/authorized_keys`
-5. From the Ambari Server, make sure you can connect to each host in the cluster using SSH, without having to enter a password.
+5. From the Ambari Server, make sure you can connect to each host in the cluster using SSH, without having to enter a password.\
 `ssh root@odp{1-4}-test.adsre.com`
 
 
