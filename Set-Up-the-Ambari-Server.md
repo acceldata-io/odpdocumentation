@@ -33,3 +33,11 @@ Alternatively, you can enter **2** to download a Custom JDK. If you choose Custo
        name, and password.\
     e. To use an existing MySQL/MariaDB database, and select your own database name, user name, and password for that database, enter **3**.
 Select the database you want to use and provide any information requested at the prompts, including host name, port, database name, user name, and password.
+    f. To use an existing PostgreSQL database, and select your own database name, user name, and password for that database, enter **4**.
+Select the database you want to use and provide any information requested at the prompts, including host name, port, database name, user name, and password.
+
+8. At **Proceed with configuring remote database connection properties [y/n]** choose **y**.
+
+The setup is completed. 
+
+If your host accesses the Internet through a proxy server, you must configure Ambari Server to use this proxy server.
