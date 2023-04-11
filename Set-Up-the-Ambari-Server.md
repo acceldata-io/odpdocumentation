@@ -17,4 +17,12 @@ Respond to the setup prompt with the following steps.
 4. Select a JDK version to download. Enter **1** to download Oracle JDK 1.8.\
 By default, Ambari Server setup downloads and installs Oracle JDK 1.8 and the accompanying Java Cryptography Extension (JCE) Policy Files.
 5. To proceed with the default installation, accept the Oracle JDK license when prompted. You must accept this license to download the necessary JDK from Oracle. The JDK is installed during the deploy phase.\
-Alternatively, you can enter 2 to download a Custom JDK. If you choose Custom JDK, you must manually install the JDK on all hosts and specify the Java Home path.
+Alternatively, you can enter **2** to download a Custom JDK. If you choose Custom JDK, you must manually install the JDK on all hosts and specify the Java Home path.
+
+**Note**: To install OpenJDK, use the Custom option. Be prepared to provide the valid JAVA_HOME value to Ambari. Acceldata strongly recommends that you install the JDK packages consistently on all the hosts.
+
+6. Review the GPL license agreement when prompted. To explicitly enable Ambari to download and install LZO data compression libraries, you must answer **y**. If you enter **n**, Ambari does not automatically install LZO on any new host in the cluster. In this case, you must ensure LZO is installed and configured appropriately. Without LZO being installed and configured, data compressed with LZO is not readable. If you do not want Ambari to automatically download and install LZO, you must confirm your choice to proceed.
+
+7. Select **n** at **Enter advanced database configuration** to use the default, embedded PostgreSQL database for Ambari. The default PostgreSQL database name is **ambari**. The default user name and password are **ambari/bigdata**. To use an existing PostgreSQL, MySQL/MariaDB or Oracle database with Ambari, select **y**.
+
+    - a
