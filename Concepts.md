@@ -1,0 +1,1 @@
+This section explains the Ambari Server and ODP. 
