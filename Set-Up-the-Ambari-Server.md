@@ -1,0 +1,2 @@
+Before starting the Ambari Server, you must set up the Ambari Server. Setup configures Ambari to talk to the Ambari database, installs the JDK and allows you to customize the user account the Ambari Server daemon will run as. \
+Move ambari-views-package-2.7.6.0.0.jar to tmp before running ambari-server setup cmd:
