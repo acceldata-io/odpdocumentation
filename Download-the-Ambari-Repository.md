@@ -46,7 +46,17 @@ AMBARI-2.7.6.0.0        ambari                     	   35
 ODP-3.2-repo-4          ODP-3.2-repo-4                     132
 ```
 
-5. Place the **ambari.repo** file on the host you plan to use for the Ambari server.
-For RHEL/CentOS/Oracle/Amazon Linux:
+5. Place the **ambari.repo** file on the host you plan to use for the Ambari server by executing one of the following commands
+
+* For RHEL/CentOS/Oracle/Amazon Linux execute the following command.
 
 `/etc/yum.repos.d/ambari.repo`
+
+* For SLES execute the following command. 
+
+`/etc/zypp/repos.d/ambari.repo`
+
+* For Debain/Ubuntu execute the following command.
+
+`/etc/apt/sources.list.d/ambari.list`
+
