@@ -45,3 +45,8 @@ repo id                repo name                          status
 AMBARI-2.7.6.0.0        ambari                     	   35
 ODP-3.2-repo-4          ODP-3.2-repo-4                     132
 ```
+
+5. Place the **ambari.repo** file on the host you plan to use for the Ambari server.
+For RHEL/CentOS/Oracle/Amazon Linux:
+
+`/etc/yum.repos.d/ambari.repo`
