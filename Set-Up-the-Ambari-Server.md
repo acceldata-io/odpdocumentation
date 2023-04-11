@@ -2,7 +2,7 @@ Before starting the Ambari Server, you must set up the Ambari Server. Setup conf
 
 Move _ambari-views-package-2.7.6.0.0.jar_ file to **tmp** before executing the `ambari-server setup` cmd. You can execute the following commands to accomplish this. 
 ```
-Login into Ambari Server node:
+Login to Ambari Server node:
 
 $ mv /var/lib/ambari-server/resources/views/ambari-views-package-2.7.6.0.0.jar /tmp
 $ ambari-server setup
