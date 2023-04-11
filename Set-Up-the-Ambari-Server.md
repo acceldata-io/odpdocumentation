@@ -25,5 +25,5 @@ Alternatively, you can enter **2** to download a Custom JDK. If you choose Custo
 
 7. Select **n** at **Enter advanced database configuration** to use the default, embedded PostgreSQL database for Ambari. The default PostgreSQL database name is **ambari**. The default user name and password are **ambari/bigdata**. To use an existing PostgreSQL, MySQL/MariaDB or Oracle database with Ambari, select **y**.
 
-    a If you are using an existing PostgreSQL, MySQL/MariaDB, or Oracle database instance, use one of the following prompts.
-    b You must prepare an existing database instance, before running setup and entering advanced database configuration.
+    a. If you are using an existing PostgreSQL, MySQL/MariaDB, or Oracle database instance, use one of the following prompts.
+    b. You must prepare an existing database instance, before running setup and entering advanced database configuration.
