@@ -23,12 +23,12 @@ Each service requires a service user account. The Ambari Cluster Install wizard 
 # Enable NTP/chrony on the Cluster and on the Browser Host
 Install NTP and Chrony on RHEL/CentOS and Ubuntu.
 
-## RHEL/CentOS:
+## RHEL/CentOS
 **Install NTP**: Run the command `yum install ntp` and start the NTP service using the command `systemctl start ntpd`.\
 or\
 **Install Chrony**: Run the command `yum install chrony` and start the Chrony service using the command `systemctl start chronyd`.
 
-## Ubuntu:
+## Ubuntu
 **Install NTP**: Run the command `sudo apt-get install ntp` and start the NTP service using the command `sudo systemctl start ntp`.
 or
 **Install Chrony**: Run the command sudo apt-get install chrony and start the Chrony service using the command `sudo systemctl start chrony`.
@@ -90,11 +90,11 @@ To permanently disable SELinux set `SELINUX=disabled` in `/etc/selinux/config`  
 \
 Ambari, and ODP, support umask values of 022 (0022 is functionally equivalent), 027 (0027 is functionally equivalent). These values must be set on all hosts.
 
-## UMASK Examples:
+## UMASK Examples
 Setting the umask for your current login session:\
 `umask 0022`
 
-## Checking your current umask:
+### Checking your current umask:
 umask
 Permanently changing the umask for all interactive users:\
 `echo umask 0022 >> /etc/profile`
