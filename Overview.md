@@ -1,1 +1,1 @@
-This is Overview
+Acceldata supports open-source database platform (ODP). To use Acceldata supported ODP, you must also install the Ambari Server. This tutorial explains the process of installing Ambari Server and ODP on your cluster. 
