@@ -4,7 +4,7 @@ This document explains the process to setup the ODP cluster.
 
 1. From the Ambari Welcome page, choose Launch Install Wizard.
 
-
+![](https://github.com/acceldata-io/odpdocumentation/blob/main/1.png)
 
 
 # Name Your Cluster
