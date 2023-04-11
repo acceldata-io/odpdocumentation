@@ -16,7 +16,7 @@ Before deploying a cluster, gather the following information:
   `hostname -f` command to check or verify the FQDN of a host.
 * A list of components you want to set up on each host.
 
-* The base directories you want to use as mount points to store the following:
+* The base directories to be used as mount points to store the following data:
     - NameNode data
     - DataNodes data
     - Secondary NameNode data
