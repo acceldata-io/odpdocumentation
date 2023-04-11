@@ -8,3 +8,6 @@ Its flexible and scalable user interface allows a range of tools such as [Pig](h
 * Monitoring dependencies and performances by visualizing and analyzing jobs and tasks
 * Authentication, authorization, and auditing by installing Kerberos-based Hadoop clusters
 * Flexible and adaptive technology fitting perfectly in the enterprise environment
+
+Ambari Server has four main components. 
+
