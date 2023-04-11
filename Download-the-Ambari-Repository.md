@@ -19,3 +19,19 @@ cd /var/www/html/\
 tar -xvzf AMBARI-2.7.6.0.0_15Feb23_latest_orig.tar.gz -C /var/www/html/\
 tar -xvzf ODP-3.2.2.0-1_15Feb23_latest_orig.tar.gz -C /var/www/html/
 ```
+
+3. Create Ambari and ODP repositories by executing the following commands. 
+```
+cat /etc/rum.repos.d/ambari.repo
+[AMBARI-2.7.6.0.0]
+baseurl=http://<repo-host>/repos/AMBARI-2.7.6.0.0/
+gpgcheck=0
+name=ambari
+enable=1
+
+[ODP-3.2.2.0-1]
+baseurl=http://<repo-host>/repos/ODP-3.2.2.0-1/
+gpgcheck=0
+name=ODP
+enable=1
+```
