@@ -48,3 +48,28 @@ At the bottom of the screen, you may notice a yellow box that indicates some war
 
 Also please make sure that all the WARNINGS are taken care of else this may cause the problem in future.
 
+# Choose Services
+
+Based on the Stack chosen during the Select Stack step, you are presented with the choice of Services to install into the cluster. A Stack comprises many services. You may choose to install any other available services now, or to add services later. The Cluster Install wizard selects all available services for installation by default.
+
+Choose or clear individual check boxes to define a set of services to install now.
+After selecting the services to install now, choose **Next**.
+
+![](https://github.com/acceldata-io/odpdocumentation/blob/main/assets/4.png)
+
+# Assign Masters
+
+The Cluster Install wizard assigns the master components for selected services to appropriate hosts in your cluster and displays the assignments in Assign Masters. The left column shows services and current hosts. The right column shows current master component assignments by host, indicating the number of CPU cores and amount of RAM installed on each host. To change the host assignment for a service, select a host name from the drop-down menu for that service.
+
+https://github.com/acceldata-io/odpdocumentation/blob/main/assets/5.png
+
+# Assign Slaves and Clients
+
+The Cluster Install wizard assigns the slave components, such as DataNodes, NodeManagers, and RegionServers, to appropriate hosts in your cluster. It also attempts to select hosts for installing the appropriate set of clients.
+
+You must fine-tune your selections by using the check boxes next to specific hosts.
+
+
+![](https://github.com/acceldata-io/odpdocumentation/blob/main/assets/6.png)
+
+
