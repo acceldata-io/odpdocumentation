@@ -1,6 +1,6 @@
 1. [Overview](https://github.com/acceldata-io/odpdocumentation/wiki/Overview)
 2. [Concepts](https://github.com/acceldata-io/odpdocumentation/wiki/Concepts)
-    1. [Using Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Using-Ambari-Server)
+    1. [Understanding Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Using-Ambari-Server)
     2. [Understanding ODP](https://github.com/acceldata-io/odpdocumentation/wiki/ODP)
 3. [Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Ambari-Server)
     1. [Prerequisites to Install Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Prerequisites-to-Install-Ambari-Server)
