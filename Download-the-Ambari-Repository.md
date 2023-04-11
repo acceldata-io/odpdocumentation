@@ -40,7 +40,8 @@ enable=1
 ```
 $ yum clean all\
 $ yum repolistt\
-repo id                repo name                          status\
-AMBARI-2.7.6.0.0        ambari                     	     35\
+\
+**repo id  **              **repo name**                          **status**
+AMBARI-2.7.6.0.0        ambari                     	     35
 ODP-3.2-repo-4          ODP-3.2-repo-4                     132
 ```
