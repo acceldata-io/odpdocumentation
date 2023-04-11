@@ -30,6 +30,6 @@ Alternatively, you can enter **2** to download a Custom JDK. If you choose Custo
     c. Using the Microsoft SQL Server or SQL Anywhere database options are not supported.\
     d. To use an existing Oracle instance, and select your own database name, user name, and password for that database, enter **2**.\
        Select the database you want to use and provide any information requested at the prompts, including host name, port, Service Name or SID, user 
-       name, and password.
+       name, and password.\
     e. To use an existing MySQL/MariaDB database, and select your own database name, user name, and password for that database, enter **3**.
 Select the database you want to use and provide any information requested at the prompts, including host name, port, database name, user name, and password.
