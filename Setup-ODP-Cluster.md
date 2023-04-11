@@ -39,3 +39,12 @@ You can use ranges inside brackets to indicate larger sets of hosts. For example
 2. Enter the user name for the SSH key you have selected. If you do not want to use **root**, you must provide the user name for an account that can execute **sudo** without entering a password. If SSH on the hosts in your environment is configured for a port other than 22, you can change it.
 3. If you do not want Ambari to automatically install the Ambari Agents, select **Perform manual registration**.
 4. Choose **Register** and Confirm to continue.
+
+# Confirm Hosts
+
+Confirm Hosts prompts you to confirm that Ambari has located the correct hosts for your cluster and to check those hosts to make sure they have the correct directories, packages, and processes required to continue the install.
+
+At the bottom of the screen, you may notice a yellow box that indicates some warnings were encountered during the check process. Choose Click here to see the warnings to see a list of what was checked and what caused the warning.
+
+Also please make sure that all the WARNINGS are taken care of else this may cause the problem in future.
+
