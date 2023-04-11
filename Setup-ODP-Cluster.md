@@ -20,6 +20,8 @@ You must select the software version and method of delivery for your cluster. Us
 ## Choosing Stack
 When you select a TAB, Ambari attempts to discover what specific version of that Stack is available. That list is shown in a DROPDOWN.
 
+![](https://github.com/acceldata-io/odpdocumentation/blob/main/assets/2.png)
+
 
 
 # Choosing Repositories
