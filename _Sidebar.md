@@ -5,5 +5,5 @@
 3. [Ambari Server Installation](https://github.com/acceldata-io/odpdocumentation/wiki/Ambari-Server-Installation)    
     1. [Download the Ambari Repository](https://github.com/acceldata-io/odpdocumentation/wiki/Download-the-Ambari-Repository)
     2. [Install the Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Install-the-Ambari-Server)
-    3. [Setup Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Set-Up-the-Ambari-Server)
+    3. [Set up Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Set-Up-the-Ambari-Server)
 
