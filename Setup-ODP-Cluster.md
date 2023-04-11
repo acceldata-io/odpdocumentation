@@ -37,5 +37,5 @@ To build up the cluster, the Cluster Install wizard prompts you for general info
 1. In Target Hosts, enter your list of host names, one per line.
 You can use ranges inside brackets to indicate larger sets of hosts. For example, for host01.domain through host10.domain use host[01-10].domain
 2. Enter the user name for the SSH key you have selected. If you do not want to use root, you must provide the user name for an account that can execute sudo without entering a password. If SSH on the hosts in your environment is configured for a port other than 22, you can change that also.
-If you do not want Ambari to automatically install the Ambari Agents, select Perform manual registration.
-Choose Register and Confirm to continue.
+3. If you do not want Ambari to automatically install the Ambari Agents, select Perform manual registration.
+4. Choose Register and Confirm to continue.
