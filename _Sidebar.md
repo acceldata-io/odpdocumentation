@@ -10,5 +10,6 @@
     2. [Install the Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Install-the-Ambari-Server)
     3. [Set up Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Set-Up-the-Ambari-Server)
     4. [Work with Management Packs](https://github.com/acceldata-io/odpdocumentation/wiki/Work-with-Management-Packs)
-4. [ODP Cluster Installation](https://github.com/acceldata-io/odpdocumentation/wiki/Setup-ODP-Cluster)    
+4. [ODP Cluster Installation](https://github.com/acceldata-io/odpdocumentation/wiki/Setup-ODP-Cluster) 
+    1. [Customize Services](https://github.com/acceldata-io/odpdocumentation/wiki/Customize-Services)   
     
