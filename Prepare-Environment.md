@@ -22,7 +22,7 @@ Each service requires a service user account. The Ambari Cluster Install wizard 
 
 # Enable NTP/Chrony on the Cluster and Browser Host
 
-##Install NTP and Chrony on RHEL/CentOS and Ubuntu.
+## Install NTP and Chrony on RHEL/CentOS and Ubuntu.
 
 ### RHEL/CentOS
 **Install NTP**: Run the command `yum install ntp` and start the NTP service using the command `systemctl start ntpd`.\
