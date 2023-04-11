@@ -26,3 +26,5 @@ When you select a TAB, Ambari attempts to discover what specific version of that
 
 # Choosing Repositories
 Ambari gives you a choice to install the software from the Private Repositories (if you have Internet access) or Local Repositories. Regardless of your choice, you can edit the Base URL of the repositories. The available operating systems are displayed and you can add/remove operating systems from the list to fit your environment.
+
+![](https://github.com/acceldata-io/odpdocumentation/blob/main/assets/3.png)
