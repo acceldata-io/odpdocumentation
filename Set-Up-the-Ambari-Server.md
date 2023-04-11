@@ -8,3 +8,8 @@ $ mv /var/lib/ambari-server/resources/views/ambari-views-package-2.7.6.0.0.jar /
 $ ambari-server setup
 
 ```
+
+Respond to the setup prompt with the following steps. 
+
+1. If you have not temporarily disabled SELinux, you may get a warning. Accept the default **(y)**, and continue.
+2. By default, Ambari Server runs under **root**. Accept the default `(n)` at the **Customize user account for ambari-server daemon** prompt, to proceed as **root**. To create a different user to run the Ambari Server, or to assign a previously created user, select **y** at the **Customize user account for ambari-server daemon** prompt and provide a user name.
