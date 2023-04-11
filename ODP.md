@@ -1,1 +1,1 @@
-<To be added>
+Acceldata supports Opensource database Platform (ODP).
