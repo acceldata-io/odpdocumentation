@@ -28,3 +28,14 @@ When you select a TAB, Ambari attempts to discover what specific version of that
 Ambari gives you a choice to install the software from the Private Repositories (if you have Internet access) or Local Repositories. Regardless of your choice, you can edit the Base URL of the repositories. The available operating systems are displayed and you can add/remove operating systems from the list to fit your environment.
 
 ![](https://github.com/acceldata-io/odpdocumentation/blob/main/assets/3.png)
+
+# Installation Options
+To build up the cluster, the Cluster Install wizard prompts you for general information about how you want to set it up. You must supply the FQDN of each of your hosts.The wizard also needs to access the private key file you created when you set up password-less SSH.
+
+## Steps
+
+1. In Target Hosts, enter your list of host names, one per line.
+You can use ranges inside brackets to indicate larger sets of hosts. For example, for host01.domain through host10.domain use host[01-10].domain
+2. Enter the user name for the SSH key you have selected. If you do not want to use root, you must provide the user name for an account that can execute sudo without entering a password. If SSH on the hosts in your environment is configured for a port other than 22, you can change that also.
+If you do not want Ambari to automatically install the Ambari Agents, select Perform manual registration.
+Choose Register and Confirm to continue.
