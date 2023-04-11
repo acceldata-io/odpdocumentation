@@ -14,6 +14,8 @@ You must execute the following steps to setup local repository.
 
 2. Extract the Ambari and ODP repositories under (/var/www/html/repo) directory by executing the following commands.
 
-```cd /var/www/html/\```
-```tar -xvzf AMBARI-2.7.6.0.0_15Feb23_latest_orig.tar.gz -C /var/www/html/\```
-```tar -xvzf ODP-3.2.2.0-1_15Feb23_latest_orig.tar.gz -C /var/www/html/```
+```
+cd /var/www/html/\
+tar -xvzf AMBARI-2.7.6.0.0_15Feb23_latest_orig.tar.gz -C /var/www/html/\
+tar -xvzf ODP-3.2.2.0-1_15Feb23_latest_orig.tar.gz -C /var/www/html/
+```
