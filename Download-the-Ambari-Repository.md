@@ -1,8 +1,5 @@
-You can download the Ambari and ODP repositories from the following links. 
+You can download the Ambari and ODP repositories. The links for the same can be obtained by contacting the Acceldata Support team. 
 
-**Ambari Server**:  https://ad-vendor.s3.us-west-1.amazonaws.com/ODP/AMBARI-2.7.6.0.0_15Feb23_latest_orig.tar.gz
-
-**ODP:** https://ad-vendor.s3.us-west-1.amazonaws.com/ODP/ODP-3.2.2.0-1_15Feb23_latest_orig.tar.gz
 
 # Setting up Local Repository
 
