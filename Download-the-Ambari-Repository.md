@@ -1,4 +1,4 @@
-You can download the Ambari and ODP repositories. The links for the same can be obtained by contacting the Acceldata Support team. 
+You can download the Ambari and ODP repositories. The links for the same can be obtained by contacting the [Acceldata Support](https://acceldata.force.com/) team. 
 
 
 # Setting up Local Repository
