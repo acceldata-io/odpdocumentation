@@ -1,5 +1,5 @@
 1. [Release Notes](https://github.com/acceldata-io/odpdocumentation/wiki/Overview)
-    1. [Release Notes-3](https://github.com/acceldata-io/odpdocumentation/wiki/Release-Notes-3.1.4.3.2.2.0-1#hive-3143220-1-release-notes) 
+    1. [Release Notes- Hive](https://github.com/acceldata-io/odpdocumentation/wiki/Release-Notes-3.1.4.3.2.2.0-1#hive-3143220-1-release-notes) 
 2. [Concepts](https://github.com/acceldata-io/odpdocumentation/wiki/Concepts)
     1. [Understanding Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Using-Ambari-Server)
     2. [Understanding ODP](https://github.com/acceldata-io/odpdocumentation/wiki/ODP)
