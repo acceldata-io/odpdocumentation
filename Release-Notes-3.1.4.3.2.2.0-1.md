@@ -6,7 +6,7 @@ Hive 3.1.4 for ODP is built on top of Apache Hive 4.0.0-Alpha-1 Release. Below m
 
  
 
-## Fixed Issues :
+## Fixed Issues:
 
 ODP-236 Metastore Upgrade to 3.1.4 failing with Oracle 11g database
 
@@ -28,7 +28,7 @@ Base commit: Mapping ODP component versions & commons-lang fix
 
  
 
-## Known Issues :
+## Known Issues:
 
 ODP-240     Beeline: ERROR imps.EnsembleTracker: Invalid config event received
 
