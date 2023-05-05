@@ -16,7 +16,7 @@ Hive 3.1.4 for ODP is built on top of Apache Hive 4.0.0-Alpha-1 Release. Below m
 | ODP-217   | ----------- || LLAP Multinode failure with Netty mismatch version          |
 
  
-| JIRA      | Description | Test Text     |
+| JIRA      | Apache JIRA | Summary     |
 | :---        |    :----:   |          ---: |
 | Header      | Title       | Here's this   |
 | Paragraph   | Text        | And more      |
