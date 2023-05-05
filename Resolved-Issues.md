@@ -43,4 +43,4 @@ ODP-175     [HIVE-18786] NPE in Hive windowing functions
 ODP-118     [HIVE-20221] Increase column width for partition_params
 
   
-The detailed patch list for Apache Hive 4.0.0-Alpha-1 can be accessed here
+The detailed patch list for Apache Hive 4.0.0-Alpha-1 can be accessed [here](https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12351399&styleName=Html&projectId=12310843)
