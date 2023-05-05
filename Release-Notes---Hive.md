@@ -18,8 +18,9 @@ Hive 3.1.4 for ODP is built on top of Apache Hive 4.0.0-Alpha-1 Release. Below m
  
 | JIRA      | Apache JIRA | Summary     |
 | :---        |    :----:   |          ---: |
-| ODP-236      | -----------      | Here's this   |
-| ODP-121   | -----------        | And more      |
+| ODP-236      | -----------      | Metastore Upgrade to 3.1.4 failing with Oracle 11g database   |
+| ODP-121   | -----------        | pdate LLAP aux classes      |
+| ODP-121   | -----------        | pdate LLAP aux classes      |
  
 
 
