@@ -10,13 +10,13 @@ Hive 3.1.4 for ODP is built on top of Apache Hive 4.0.0-Alpha-1 Release. Below m
 
  
 | JIRA      | Summary     |
-| :---                  :---: |
-| ODP-236          | Metastore Upgrade to 3.1.4 failing with Oracle 11g database   |
-| ODP-121          | Update LLAP aux classes      |
-| ODP-218         | Update LLAP Daemon log4j2 routing properties      |
-| ODP-217         | LLAP Multinode failure with Netty mismatch version      |
-| ODP-200   | -----------        | HIVE-27240 NPE on Hive Hook Proto Log Writer      |
-| ODP-119   | -----------        | Revert HIVE-21033 patch to support Spark Hive integration      |
+| :---      | :---: |
+| ODP-236   | Metastore Upgrade to 3.1.4 failing with Oracle 11g database   |
+| ODP-121   | Update LLAP aux classes      |
+| ODP-218   | Update LLAP Daemon log4j2 routing properties      |
+| ODP-217   | LLAP Multinode failure with Netty mismatch version      |
+| ODP-200   | HIVE-27240 NPE on Hive Hook Proto Log Writer      |
+| ODP-119   | Revert HIVE-21033 patch to support Spark Hive integration      |
 
 
 Relabelled 4.0.0-alpha-1 to 3.1.4.3.2.2.0-1.
