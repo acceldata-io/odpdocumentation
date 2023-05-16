@@ -33,7 +33,7 @@ Base commit: Mapping ODP component versions & commons-lang fix
 | ODP-237   | Ambari UI shows "Sys DB and Information Schema not created yet" alarm on one of the Hive Metastore servers.      |
 | ODP-226   | Hive v4 Hook class addition on ODP      |
 | ODP-220   | Stop LLAP service fails with exceptions      |
-| ODP-175   | [HIVE-18786] NPE in Hive windowing functions      |
+| ODP-175   | abcs      |
 | ODP-118   | Revert HIVE-21033 patch to support Spark Hive integration      |
 
  | JIRA       | Summary     |
