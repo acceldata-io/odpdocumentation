@@ -28,23 +28,13 @@ Base commit: Mapping ODP component versions & commons-lang fix
 ## Known Issues:
 
 | JIRA      | Summary     |
-| :---      | :--- |
+| :---      | :---: |
 | ODP-240   | Beeline: ERROR imps.EnsembleTracker: Invalid config event received   |
-| ODP-237   | Ambari UI shows "Sys DB and Information Schema not created yet"<br> alarm on one of the Hive Metastore servers.                             |
+| ODP-237   | Ambari UI shows "Sys DB and Information Schema not created yet"<br> alarm on one of the Hive Metastore servers.                             
 | ODP-226   | Hive v4 Hook class addition on ODP      |
 | ODP-220   | Stop LLAP service fails with exceptions      |
-| ODP-175   | abcs      |
-| ODP-118   | Revert HIVE-21033 patch to support Spark Hive integration      |
-
- | JIRA       | Summary     |
- | :---       |    :---: |
- | ODP-240    | Beeline: ERROR imps.EnsembleTracker: Invalid config event received   |
- | ODP-237    | Ambari UI shows "Sys DB and Information Schema not created yet" alarm on one of the Hive Metastore servers.      |
- | ODP-226    | Hive v4 Hook class addition on ODP      |
- | ODP-220    | Stop LLAP service fails with exceptions      |
- | ODP-175    | [HIVE-18786] NPE in Hive windowing functions      |
- | ODP-118    | [HIVE-20221] Increase column width for partition_params      |
-
+| ODP-175   | [HIVE-18786] NPE in Hive windowing functions      |
+| ODP-118   | [HIVE-20221] Increase column width for partition_params      |
 
   
 The detailed patch list for Apache Hive 4.0.0-Alpha-1 can be accessed [here](https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12351399&styleName=Html&projectId=12310843)
