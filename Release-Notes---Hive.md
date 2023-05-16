@@ -29,7 +29,7 @@ Base commit: Mapping ODP component versions & commons-lang fix
 
 | JIRA      | Summary     |
 | :---      | :---: |
-| ODP-240   | Metastore Upgrade to 3.1.4 failing with Oracle 11g database   |
+| ODP-240   | Beeline: ERROR imps.EnsembleTracker: Invalid config event received   |
 | ODP-237   | Update LLAP aux classes      |
 | ODP-226   | Update LLAP Daemon log4j2 routing properties      |
 | ODP-220   | LLAP Multinode failure with Netty mismatch version      |
