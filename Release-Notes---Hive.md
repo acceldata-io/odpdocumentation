@@ -30,8 +30,7 @@ Base commit: Mapping ODP component versions & commons-lang fix
 | JIRA      | Summary     |
 | :---      | :---: |
 | ODP-240   | Beeline: ERROR imps.EnsembleTracker: Invalid config event received   |
-| ODP-237   | Ambari UI shows "Sys DB and Information Schema not created 
-              yet" alarm on one of the Hive Metastore servers.     |
+| ODP-237              | Ambari UI shows "Sys DB and Information Schema not created yet" alarm on one of the Hive Metastore servers.     |
 | ODP-226   | Hive v4 Hook class addition on ODP      |
 | ODP-220   | Stop LLAP service fails with exceptions      |
 | ODP-175   | abcs      |
