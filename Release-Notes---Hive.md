@@ -30,10 +30,10 @@ Base commit: Mapping ODP component versions & commons-lang fix
 | JIRA      | Summary     |
 | :---      | :---: |
 | ODP-240   | Beeline: ERROR imps.EnsembleTracker: Invalid config event received   |
-| ODP-237   | Update LLAP aux classes      |
-| ODP-226   | Update LLAP Daemon log4j2 routing properties      |
-| ODP-220   | LLAP Multinode failure with Netty mismatch version      |
-| ODP-175   | HIVE-27240 NPE on Hive Hook Proto Log Writer      |
+| ODP-237   | Ambari UI shows "Sys DB and Information Schema not created yet" alarm on one of the Hive Metastore servers.      |
+| ODP-226   | Hive v4 Hook class addition on ODP      |
+| ODP-220   | Stop LLAP service fails with exceptions      |
+| ODP-175   | [HIVE-18786] NPE in Hive windowing functions      |
 | ODP-118   | Revert HIVE-21033 patch to support Spark Hive integration      |
 
  | JIRA       | Summary     |
