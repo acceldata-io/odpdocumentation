@@ -7,6 +7,9 @@ Login to Ambari Server node:
 $ mv /var/lib/ambari-server/resources/views/ambari-views-package-2.7.6.0.0.jar /tmp
 $ ambari-server setup
 
+# Once setup is complete, Revert back to the jar file.
+$ mv /tmp/ambari-views-package-2.7.6.0.0.jar /var/lib/ambari-server/resources/views/
+
 ```
 
 Respond to the setup prompt with the following steps. 
