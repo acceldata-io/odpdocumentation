@@ -1,1 +1,1 @@
-Acceldata supports Open-Source database Platform (ODP).
+Acceldata supports Open-Source Data Platform (ODP).
