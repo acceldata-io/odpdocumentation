@@ -13,8 +13,8 @@ You must execute the following steps to setup local repository.
 
 ```
 cd /var/www/html/\
-tar -xvzf AMBARI-2.7.6.0.0_15Feb23_latest_orig.tar.gz -C /var/www/html/\
-tar -xvzf ODP-3.2.2.0-1_15Feb23_latest_orig.tar.gz -C /var/www/html/
+tar -xvzf AMBARI-2.7.6.0.0.tar.gz -C /var/www/html/
+tar -xvzf ODP-3.2.2.0-1.tar.gz -C /var/www/html/
 ```
 
 3. Create Ambari and ODP repositories by executing the following commands. 
@@ -35,8 +35,8 @@ enable=1
 
 4. Verify Ambari repository by executing the following commands. 
 ```
-$ yum clean all\
-$ yum repolistt\
+$ yum clean all
+$ yum repolistt
 \
 repo id                repo name                          status
 AMBARI-2.7.6.0.0        ambari                     	   35
