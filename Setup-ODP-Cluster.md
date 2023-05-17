@@ -61,7 +61,7 @@ After selecting the services to install now, choose **Next**.
 
 The Cluster Install wizard assigns the master components for selected services to appropriate hosts in your cluster and displays the assignments in Assign Masters. The left column shows services and current hosts. The right column shows current master component assignments by host, indicating the number of CPU cores and amount of RAM installed on each host. To change the host assignment for a service, select a host name from the drop-down menu for that service.
 
-https://github.com/acceldata-io/odpdocumentation/blob/main/assets/5.png
+![](https://github.com/acceldata-io/odpdocumentation/blob/main/assets/5.png)
 
 # Assign Slaves and Clients
 
