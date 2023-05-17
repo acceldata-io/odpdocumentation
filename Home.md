@@ -7,6 +7,8 @@ Acceldata supports the Open-Source Data Platform. To use the Acceldata supported
 * Curate and build a community of enterprise stakeholders around ingestion, storage, compute, and security projects to share best practices.
 * Play an active role in creation and sharing of platform binaries, managebility and monitoring software which allows enterprises to make their open-source ambitions possible. 
 
+# ODP Architecture
+
 The following image displays the architecture of ODP. 
 
 ![](https://github.com/acceldata-io/odpdocumentation/blob/main/assets/Screenshot%202023-05-16%20at%201.48.21%20PM.png)
