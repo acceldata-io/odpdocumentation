@@ -1,7 +1,7 @@
 1. [Release Notes](https://github.com/acceldata-io/odpdocumentation/wiki/Overview)
     1. [Hive Release Notes](https://github.com/acceldata-io/odpdocumentation/wiki/Release-Notes---Hive) 
 2. [Concepts](https://github.com/acceldata-io/odpdocumentation/wiki/Concepts)
-    1. [Understanding Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Using-Ambari-Server)
+    1. [Using Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Using-Ambari-Server)
     2. [Understanding ODP](https://github.com/acceldata-io/odpdocumentation/wiki/ODP)
 3. [Ambari Server Requirements](https://github.com/acceldata-io/odpdocumentation/wiki/Ambari-Server)
     1. [Prerequisites to Install Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Prerequisites-to-Install-Ambari-Server)
