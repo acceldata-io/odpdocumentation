@@ -5,7 +5,7 @@ Acceldata supports the Open-Source Data Platform. To use the Acceldata supported
 * To allow Data driven enterprises to benefit from Open-source data platform software available through various Apache projects and communities.
 * To provide an option to enterprises to continue with their Big Data Hadoop journey without being locked in proprietary platforms. 
 * Curate and build a community of enterprise stakeholders around ingestion, storage, compute, and security projects to share best practices.
-* Play an active role in creation and sharing of platform binaries, managebility and monitoring software which allows enterprises to make their open-source ambitions possible. 
+* Play an active role in creation and sharing of platform binaries, manageability and monitoring software which allows enterprises to make their open-source ambitions possible. 
 
 # ODP Architecture
 
