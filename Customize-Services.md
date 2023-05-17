@@ -37,19 +37,9 @@ Ambari will be able to change the UID’s of all service accounts.
 
 Here you have an opportunity to review and revise the remaining configurations for your services. Browse through each configuration tab. Hovering your cursor over each of the properties, displays a brief description of what the property does. The number of service tabs shown here depends on the services you decided to install in your cluster. Any service with configuration issues that require attention will show up in the bell icon with the number properties that need attention.
 
-## Yarn Service
-
-* If Spark3 mpack is not added, Remove spark3_shuffle property from configuration and once Spark3 is added, add it back.
-
 ## Hbase Service
 
 * Go to Hbase Service configuration, Disable Pheonix enabled.
-
-Ranger Service
-
-* Uncheck Hbase and Kafka ranger plugin.
-* Check if Ambari Infra solr service is selected to Enable Ranger Audit option.
-* Increase the no of shards and heap for the service if the production env.
 
 ![](https://github.com/acceldata-io/odpdocumentation/blob/main/assets/8.png)
 
