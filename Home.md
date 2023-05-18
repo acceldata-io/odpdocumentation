@@ -13,7 +13,6 @@ The following image displays the architecture of ODP.
 
 ![Could not load image](https://github.com/acceldata-io/odpdocumentation/blob/main/assets/arch.png)
 
-![](assets/1.png)
 
 # Component Versions
 
