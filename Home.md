@@ -11,4 +11,4 @@ Acceldata supports the Open-Source Data Platform. To use the Acceldata supported
 
 The following image displays the architecture of ODP. 
 
-![](https://github.com/acceldata-io/odpdocumentation/blob/main/assets/1.png)
+(https://github.com/acceldata-io/odpdocumentation/blob/main/assets/1.png)
