@@ -10,7 +10,9 @@ Acceldata supports the Open-Source Data Platform. To use the Acceldata supported
 # ODP Architecture
 
 The following image displays the architecture of ODP. 
-![](https://github.com/acceldata-io/odpdocumentation/blob/main/assets/ODP%20managebility.png)
+
+![](https://github.com/acceldata-io/odpdocumentation/blob/main/assets/ODP%20managebility.drawio.png)
+
 # Component Versions
 
 | Component | Apache version | Status |
