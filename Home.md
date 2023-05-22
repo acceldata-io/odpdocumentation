@@ -46,7 +46,7 @@ The following image displays the architecture of ODP.
 
 ## Java Certifications
 
-| OS Name | Status | Status |
+| OS Name | Status |
 | --------------- | --------------- |
 |Java  | JDK 8 (Complete) <br> JDK 11 (TBD) |
 
