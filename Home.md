@@ -17,9 +17,9 @@ The following image displays the architecture of ODP.
 
 | Component | Apache version | Status |
 | --------------- | --------------- | --------------- |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+|Ambari  | 2.7.6.0 |Released  |
+|Hadoop  |3.2.3  |Released  |
+|HBase  |2.4.11  |Released  |
 
 # Upcoming Releases
 | Component |Version |Release Date |
