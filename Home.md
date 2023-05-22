@@ -13,7 +13,9 @@ The following image displays the architecture of ODP.
 
 ![](https://github.com/acceldata-io/odpdocumentation/blob/main/assets/ODP%20managebility.png)
 
-# Component Versions
+# Open Source Data Platform Specifications
+
+## Component Versions
 
 | Component | Apache version | Status |
 | --------------- | --------------- | --------------- |
