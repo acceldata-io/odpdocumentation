@@ -23,7 +23,7 @@ The following image displays the architecture of ODP.
 |Hadoop  |3.2.3  |Released  |
 |HBase  |2.4.11  |Released  |
 |Phoenix  | 5.0.0 |Released  |
-|Hive  |3.1.3 / 4.0.0-Alpha!  |Released  |
+|Hive  |3.1.3 / 4.0.0-Alpha1  |Released  |
 |Tez  |0.10.1  |Released  |
 |Spark 2  |2.4.8 |Released  |
 |Spark 3  |3.2.2  |Mpack Released  |
@@ -36,10 +36,25 @@ The following image displays the architecture of ODP.
 |Zookeeper  |3.5.10  |Released  |
 |Zeppelin  |0.10.1 |Released  |
 
-
-# Upcoming Releases
-| Component |Version |Release Date |
+## OS Certifications
+| OS Name | Status | Status |
 | --------------- | --------------- | --------------- |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+|CentOS/RHEL  | 7.x (Complete) |8.x (In-progress)  |
+|Ubuntu  |18.x and 20.x (Complete)  |22.x (TBD)  |
+|Rocky Linux  |8.x (In-progress)  |9.X (TBD)  |
+
+
+## Java Certifications
+
+| OS Name | Status | Status |
+| --------------- | --------------- |
+|Java  | JDK 8 (Complete) <br> JDK 11 (TBD) |
+
+
+## Upcoming Releases
+| Component | Version | Release Date |
+| --------------- | --------------- | --------------- |
+|Nifi  | 1.19.1 |Q2-2023  |
+|Druid  |25.0.0  |Q2-2023  |
+|Kudu  |1.16.0  |TBD  |
+|Ozone  |1.3.0  |Q3-2023  |
