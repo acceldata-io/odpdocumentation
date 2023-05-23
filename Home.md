@@ -1,11 +1,13 @@
 Acceldata supports the Open-Source Data Platform. To use the Acceldata supported Open-Source Data Platform (ODP), you must install it. This documentation explains the installation process of Acceldata Open-Source Data Platform (ODP). 
 
-# Advantages of ODP
+# What is ODP
 
-* To allow Data driven enterprises to benefit from Open-source data platform software available through various Apache projects and communities.
-* To provide an option to enterprises to continue with their Big Data Hadoop journey without being locked in proprietary platforms. 
-* Curate and build a community of enterprise stakeholders around ingestion, storage, compute, and security projects to share best practices.
-* Play an active role in creation and sharing of platform binaries, manageability and monitoring software which allows enterprises to make their open-source ambitions possible. 
+* An Open Source Data Platform 
+* Alternative to proprietary platform and a monopoly
+* Available to Pulse customers who don’t want to get locked in with a single Vendor
+* 100% Open source - Built and Tested by Acceldata using latest upstream code
+* Same stack Deployed at T-Mobile, AT&T , True Corp, AIS group & PhonePe, HCSC, Freddie Mac
+
 
 # ODP Architecture
 
