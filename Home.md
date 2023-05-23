@@ -57,3 +57,7 @@ Official Apache component versions for HDP.
 |Druid  |25.0.0  |Q2-2023  |
 |Kudu  |1.16.0  |TBD  |
 |Ozone  |1.3.0  |Q3-2023  |
+
+# ODP Process Methodology
+
+
