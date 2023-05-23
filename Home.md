@@ -17,6 +17,8 @@ The following image displays the architecture of ODP.
 
 ## Component Versions
 
+Component Versions
+
 | Component | Apache version | Status |
 | --------------- | --------------- | --------------- |
 |Ambari  | 2.7.6.0 |Released  |
