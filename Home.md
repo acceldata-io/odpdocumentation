@@ -17,33 +17,28 @@ The following image displays the architecture of ODP.
 
 ## Component Versions
 
-Component Versions
+This section provides a list of the official Apache component versions for Hortonworks Data Platform (HDP). To ensure that you are working with the most recent stable software available, you must be familiar with the latest Apache component versions in HDP. You should also be aware of the available Technical Preview components and use them only in a testing environment.
 
-| Component | Apache version | Status |
-| --------------- | --------------- | --------------- |
-|Ambari  | 2.7.6.0 |Released  |
-|Hadoop  |3.2.3  |Released  |
-|HBase  |2.4.11  |Released  |
-|Phoenix  | 5.0.0 |Released  |
-|Hive  |3.1.3 / 4.0.0-Alpha1  |Released  |
-|Tez  |0.10.1  |Released  |
-|Spark 2  |2.4.8 |Released  |
-|Spark 3  |3.2.2  |Mpack Released  |
-|Kafka  |2.8.2  |Released  |
-|Ranger  | 2.3.0 |Released  |
-|Infra Solr  |2.7.6.0  |Released  |
-|Sqoop  |1.4.7  |Released  |
-|Impala  |4.1.0 |Mpack Released  |
-|Hue  |4.10.0  |Mpack Released  |
-|Zookeeper  |3.5.10  |Released  |
-|Zeppelin  |0.10.1 |Released  |
+The Acceldata approach is to provide patches only when necessary, to ensure the interoperability of components. Unless you are explicitly directed by Acceldata Support to install a patch, each of the HDP components should remain at the following package version levels to ensure a certified and supported copy of HDP.
 
-## OS Certifications
-| OS Name | Status | Status |
-| --------------- | --------------- | --------------- |
-|CentOS/RHEL  | 7.x (Complete) |8.x (In-progress)  |
-|Ubuntu  |18.x and 20.x (Complete)  |22.x (TBD)  |
-|Rocky Linux  |8.x (In-progress)  |9.X (TBD)  |
+Official Apache component versions for HDP.
+
+* Ambari 2.7.6.0
+* Hadoop 3.2.3
+* HBase 2.4.11
+* Phoenix 5.0.0
+* Hive 3.1.3 / 4.0.0-Alpha1
+* Tez 0.10.1
+* Spark 2 2.4.8
+* Spark 3 3.2.2
+* Kafka 2.8.2
+* Ranger 2.3.0
+* Infra Solr 2.7.6.0
+* Sqoop 1.4.7 
+* Impala 4.1.0
+* Hue 4.10.0
+* Zookeeper 3.5.10
+* Zeppelin 0.10.1
 
 
 ## Java Certifications
