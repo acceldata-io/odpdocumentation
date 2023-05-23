@@ -61,4 +61,14 @@ Official Apache component versions for HDP.
 # ODP Process Methodology
 ![](https://github.com/acceldata-io/odpdocumentation/blob/main/assets/ODP%20process%20management.drawio%20(2).png)
 
+# ODP Migration Options
+
+Acceldata supports three types of migrations for ODP. The three migration methods are described as follows. 
+
+## In-Place Upgrade
+
+This is the fastest migration process and does not require you to uninstall the existing version. You can start this migration process without saving data beyond normal precautions. 
+
+
+
 
