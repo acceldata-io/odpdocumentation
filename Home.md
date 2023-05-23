@@ -59,5 +59,6 @@ Official Apache component versions for HDP.
 |Ozone  |1.3.0  |Q3-2023  |
 
 # ODP Process Methodology
+![](https://github.com/acceldata-io/odpdocumentation/blob/main/assets/ODP%20process%20management.drawio%20(2).png)
 
 
