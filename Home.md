@@ -71,7 +71,7 @@ This is the fastest migration process and does not require you to uninstall the 
 
 
 <div align="center">
-    <img src="https://github.com/acceldata-io/odpdocumentation/blob/main/assets/In%20place%20migrate.drawio.png">
+    <img src="https://github.com/acceldata-io/odpdocumentation/blob/main/assets/In-place.png">
 </div>
 
 ## Side-car Upgrade
@@ -79,10 +79,14 @@ This is the fastest migration process and does not require you to uninstall the 
 You can use the side-car migration technique when you have tight service-level agreements (SLAs) that preclude an extended. This process minimizes downtime on individual workloads while providing a straightforward roll-back mechanism on a per-workload basis.
 
 <div align="center">
-    <img src="https://github.com/acceldata-io/odpdocumentation/blob/main/assets/In%20place%20migrate.drawio.png">
+    <img src="https://github.com/acceldata-io/odpdocumentation/blob/main/assets/sidecar.drawio.png">
 </div>
 
 ## Forklift Upgrade
 
 Forklift upgrade requires major changes to your existing IT infrastructure. Forklift upgrades are a result of relatively minor enhancements that cannot be implemented piece by piece due to legacy systems. In such cases, the hardware and software needs to be updated simultaneously, creating a job so large that it requires a metaphorical forklift to carry it out.
+
+<div align="center">
+    <img src="https://github.com/acceldata-io/odpdocumentation/blob/main/assets/forklift.png">
+</div>
 
