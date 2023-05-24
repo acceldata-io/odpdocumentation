@@ -2,7 +2,7 @@
 
  
 
-Hive 3.1.4 for ODP is built on top of Apache Hive 4.0.0-Alpha-1 Release. Below mentioned is the list of patches applied on top of Apache Hive 4.0.0-Alpha-1 Release :
+Hive 3.1.4 for ODP is built on top of Apache Hive 4.0.0-Alpha-1 Release. The following table displays the list of patches applied on top of Apache Hive 4.0.0-Alpha-1 Release :
 
  
 
