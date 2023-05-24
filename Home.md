@@ -84,3 +84,5 @@ You can use the side-car migration technique when you have tight service-level a
 
 ## Forklift Upgrade
 
+Forklift upgrade requires major changes to your existing IT infrastructure. Forklift upgrades are a result of relatively minor enhancements that cannot be implemented piece by piece due to legacy systems. In such cases, the hardware and software needs to be updated simultaneously, creating a job so large that it requires a metaphorical forklift to carry it out.
+
