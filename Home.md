@@ -1,6 +1,6 @@
 Acceldata supports the Open-Source Data Platform. To use the Acceldata supported Open-Source Data Platform (ODP), you must install it. This documentation explains ODP and the installation process of (ODP). 
 
-# Features is ODP
+# Features of ODP
 
 * ODP is an Open Source Data Platform.
 * It provides an alternative to proprietary platform and a monopoly.
