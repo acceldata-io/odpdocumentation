@@ -1,4 +1,4 @@
-1. [Release Notes](https://github.com/acceldata-io/odpdocumentation/wiki/Overview)
+1. [Release Notes](https://github.com/acceldata-io/odpdocumentation/wiki/Release-Notes)
     1. [Hive Release Notes](https://github.com/acceldata-io/odpdocumentation/wiki/Release-Notes---Hive) 
 2. [Concepts](https://github.com/acceldata-io/odpdocumentation/wiki/Concepts)
     1. [Using Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Using-Ambari-Server)
