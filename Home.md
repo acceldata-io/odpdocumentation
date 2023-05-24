@@ -19,11 +19,11 @@ The following image displays the architecture of ODP.
 
 ## Component Versions
 
-This section provides a list of the official Apache component versions for Hortonworks Data Platform (HDP). To ensure that you are working with the most recent stable software available, you must be familiar with the latest Apache component versions in HDP. You should also be aware of the available Technical Preview components and use them only in a testing environment.
+This section provides a list of the official Apache component versions for Open Source Data Platform (ODP). To ensure that you are working with the most recent stable software available, you must be familiar with the latest Apache component versions in ODP. You should also be aware of the available Technical Preview components and use them only in a testing environment.
 
-The Acceldata approach is to provide patches only when necessary, to ensure the interoperability of components. Unless you are explicitly directed by Acceldata Support to install a patch, each of the HDP components should remain at the following package version levels to ensure a certified and supported copy of HDP.
+The Acceldata approach is to provide patches only when necessary, to ensure the interoperability of components. Unless you are explicitly directed by Acceldata Support to install a patch, each of the ODP components should remain at the following package version levels to ensure a certified and supported copy of ODP.
 
-Official Apache component versions for HDP.
+Official Apache component versions for ODP.
 
 * Ambari 2.7.6.0
 * Hadoop 3.2.3
@@ -60,7 +60,7 @@ Official Apache component versions for HDP.
 
 # ODP Repositories
 
-This section describes the process to obtain the HDP repositories.
+This section describes the process to obtain the ODP repositories.
 
 | OS | Version Number | Repository Name | Format | URL |
 | --------------- | --------------- | --------------- | --------------- | --------------- |
