@@ -73,6 +73,9 @@ This is the fastest migration process and does not require you to uninstall the 
 
 ## In-Place Upgrade
 
+<div align="center">
+    <img src="https://github.com/acceldata-io/odpdocumentation/blob/main/assets/In%20place%20migrate.drawio.png">
+</div>
 
 
 
