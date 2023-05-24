@@ -62,12 +62,12 @@ Official Apache component versions for HDP.
 
 This section describes the process to obtain the HDP repositories.
 
-| OS | Version Number | Repository Name || Format || URL |
-| --------------- | --------------- | --------------- || --------------- || --------------- |
-|Redhat Linux  | 1.19.1 |Q2-2023  |
-|Cent OS  |25.0.0  |Q2-2023  |
-|Ubuntu  |1.16.0  |TBD  |
-|Debian  |1.3.0  |Q3-2023  |
+| OS | Version Number | Repository Name | Format | URL |
+| --------------- | --------------- | --------------- | --------------- | --------------- |
+|Redhat Linux  | 1.19.1 |Q2-2023  |Q2-2023  |Q2-2023  |
+|Cent OS  |25.0.0  |Q2-2023  |Q2-2023  |Q2-2023  |
+|Ubuntu  |1.16.0  |TBD  |Q2-2023  |Q2-2023  |
+|Debian  |1.3.0  |Q3-2023  |Q2-2023  |Q2-2023  |
 
 
 # ODP Process Methodology
