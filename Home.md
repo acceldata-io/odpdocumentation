@@ -69,11 +69,18 @@ Acceldata supports three types of migrations for ODP. The three migration method
 
 This is the fastest migration process and does not require you to uninstall the existing version. You can start this migration process without saving data beyond normal precautions. 
 
-## In-Place Upgrade
 
 <div align="center">
     <img src="https://github.com/acceldata-io/odpdocumentation/blob/main/assets/In%20place%20migrate.drawio.png">
 </div>
 
+## Side-car Upgrade
 
+You can use the side-car migration technique when you have tight service-level agreements (SLAs) that preclude an extended. This process minimizes downtime on individual workloads while providing a straightforward roll-back mechanism on a per-workload basis.
+
+<div align="center">
+    <img src="https://github.com/acceldata-io/odpdocumentation/blob/main/assets/In%20place%20migrate.drawio.png">
+</div>
+
+## Forklift Upgrade
 
