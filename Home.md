@@ -64,12 +64,12 @@ This section describes the process to obtain the HDP repositories.
 
 | OS | Version Number | Repository Name | Format | URL |
 | --------------- | --------------- | --------------- | --------------- | --------------- |
-|Redhat Linux  | 1.19.1 |Q2-2023  |Q2-2023  |Q2-2023  |
-|Cent OS  |25.0.0  |Q2-2023  |Q2-2023  |Q2-2023  |
-|Ubuntu  |1.16.0  |TBD  |Q2-2023  |Q2-2023  |
-|Debian  |1.3.0  |Q3-2023  |Q2-2023  |Q2-2023  |
-|Amazon Linux 2  |1.3.0  |Q3-2023  |Q2-2023  |Q2-2023  |
-|SLES 12  |1.3.0  |Q3-2023  |Q2-2023  |Q2-2023  |
+|Redhat Linux  | HDP-3.1.5.6189-1 |HDP  |  |  |
+|Cent OS  |HDP-3.1.5.6189-1  |HDP  |  |  |
+|Ubuntu  |HDP-3.1.5.6189-1  |HDP  |  |  |
+|Debian  |HDP-3.1.5.6189-1  |HDP  |  |  |
+|Amazon Linux 2  |HDP-3.1.5.6189-1  |HDP  |  |  |
+|SLES 12  |HDP-3.1.5.6189-1  |HDP  |  |  |
 
 
 # ODP Process Methodology
