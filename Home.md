@@ -69,8 +69,6 @@ Acceldata supports three types of migrations for ODP. The three migration method
 
 This is the fastest migration process and does not require you to uninstall the existing version. You can start this migration process without saving data beyond normal precautions. 
 
-![](https://github.com/acceldata-io/odpdocumentation/blob/main/assets/In%20place%20migrate.drawio.png)
-
 ## In-Place Upgrade
 
 <div align="center">
