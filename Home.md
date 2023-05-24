@@ -13,7 +13,7 @@ Acceldata supports the Open-Source Data Platform. To use the Acceldata supported
 
 The following image displays the architecture of ODP. 
 
-<img title="a title" alt="Alt text" src="https://drive.google.com/file/d/1tV0MS9xy8kzx8ATG5w1sGmNVEYvg3Vrc/view?usp=share_link">
+![](https://github.com/acceldata-io/odpdocumentation/blob/main/arch3.png)
 
 # Open Source Data Platform Specifications
 
