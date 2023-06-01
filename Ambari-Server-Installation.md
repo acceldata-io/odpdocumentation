@@ -1,1 +1,0 @@
-This chapter explains the process of installing Ambari Server. 

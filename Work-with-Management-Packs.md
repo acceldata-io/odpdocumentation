@@ -1,1 +1,0 @@
-Management packs allow you to deploy a range of services to your Ambari-managed cluster. You can use a management pack to deploy a specific component or service, or to deploy an entire platform, like HUE, Spark3, impala

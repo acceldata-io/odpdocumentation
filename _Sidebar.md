@@ -1,16 +1,3 @@
-1. [Release Notes](https://github.com/acceldata-io/odpdocumentation/wiki/Release-Notes)
-    1. [Hive Release Notes](https://github.com/acceldata-io/odpdocumentation/wiki/Release-Notes---Hive) 
-2. [Concepts](https://github.com/acceldata-io/odpdocumentation/wiki/Concepts)
-    1. [Using Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Using-Ambari-Server)
-    2. [Understanding ODP](https://github.com/acceldata-io/odpdocumentation/wiki/ODP)
-3. [Ambari Server Requirements](https://github.com/acceldata-io/odpdocumentation/wiki/Ambari-Server)
-    1. [Prerequisites to Install Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Prerequisites-to-Install-Ambari-Server)
-    2. [Prepare Environment](https://github.com/acceldata-io/odpdocumentation/wiki/Prepare-Environment)
-3. [Ambari Server Installation](https://github.com/acceldata-io/odpdocumentation/wiki/Ambari-Server-Installation)    
-    1. [Download the Ambari Repository](https://github.com/acceldata-io/odpdocumentation/wiki/Download-the-Ambari-Repository)
-    2. [Install the Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Install-the-Ambari-Server)
-    3. [Set up Ambari Server](https://github.com/acceldata-io/odpdocumentation/wiki/Set-Up-the-Ambari-Server)
-    4. [Work with Management Packs](https://github.com/acceldata-io/odpdocumentation/wiki/Work-with-Management-Packs)
-4. [ODP Cluster Installation](https://github.com/acceldata-io/odpdocumentation/wiki/Setup-ODP-Cluster) 
-    1. [Customize Services](https://github.com/acceldata-io/odpdocumentation/wiki/Customize-Services)   
-    
+1. Home
+2. Ambari User Guide
+3. Release Notes

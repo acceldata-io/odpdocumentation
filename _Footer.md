@@ -1,1 +1,1 @@
-Acceldata 
+Open source Data Platform - Powered By Acceldata.
