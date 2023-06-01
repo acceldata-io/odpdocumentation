@@ -453,7 +453,8 @@ You must have completed the Getting Started Setting up a Local Repository proced
 To finish setting up your local repository, complete the following:
 
 **Steps**
-- Install the repository configuration files for Ambari and the Stack on the host. 2. Confirm repository availability;
+- Install the repository configuration files for Ambari and the Stack on the host. 
+- Confirm repository availability
 
 For RHEL, CentOS or Rocky Linux: `yum repolist`
 
@@ -473,7 +474,7 @@ mkdir -p ambari/<OS>
 cd ambari/<OS>
 reposync -r ambari-2.7.6.0
 ```
-In this syntax, the value of <OS> is centos7, ubuntu18, or ubuntu20.
+In this syntax, the value of `<OS>` is centos7, ubuntu18, or ubuntu20.
 
 - For Open source Data Platform (ODP) stack repositories, create the odp directory and reposync:
 ```
